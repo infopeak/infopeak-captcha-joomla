@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<changelogs>
+	<changelog>
+		<element>infopeak</element>
+		<type>plugin</type>
+		<version>1.0.0</version>
+		<addition>
+			<item>InfoPeak Captcha for Joomla 5 and 6: protects the registration, password reset, username reminder and contact forms through Joomla's own captcha system.</item>
+			<item>Server-side token check that fails closed, with a clear message when the service cannot be reached or the monthly quota is used up.</item>
+			<item>Status panel in the plugin settings: checks the keys with InfoPeak and shows which forms are protected.</item>
+			<item>English and Danish.</item>
+		</addition>
+	</changelog>
+</changelogs>

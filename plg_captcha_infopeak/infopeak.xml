@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="plugin" group="captcha" method="upgrade">
+	<name>plg_captcha_infopeak</name>
+	<version>1.0.0</version>
+	<creationDate>2026-11</creationDate>
+	<author>InfoPeak</author>
+	<authorEmail>support@infopeak.io</authorEmail>
+	<authorUrl>https://infopeak.io</authorUrl>
+	<copyright>(C) 2026 InfoPeak</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<description>PLG_CAPTCHA_INFOPEAK_XML_DESCRIPTION</description>
+	<namespace path="src">InfoPeak\Plugin\Captcha\InfoPeak</namespace>
+	<scriptfile>script.php</scriptfile>
+	<files>
+		<folder plugin="infopeak">services</folder>
+		<folder>src</folder>
+		<folder>language</folder>
+		<filename>LICENSE.txt</filename>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic" addfieldprefix="InfoPeak\Plugin\Captcha\InfoPeak\Field">
+				<field
+					name="status"
+					type="infopeakstatus"
+					section="top"
+					hiddenLabel="true"
+				/>
+				<field
+					name="sitekey"
+					type="text"
+					label="PLG_CAPTCHA_INFOPEAK_SITEKEY_LABEL"
+					description="PLG_CAPTCHA_INFOPEAK_SITEKEY_DESC"
+					required="true"
+					filter="trim"
+					autocomplete="off"
+					class="input-xxlarge"
+				/>
+				<field
+					name="secret"
+					type="password"
+					label="PLG_CAPTCHA_INFOPEAK_SECRET_LABEL"
+					description="PLG_CAPTCHA_INFOPEAK_SECRET_DESC"
+					required="true"
+					filter="trim"
+					autocomplete="off"
+					class="input-xxlarge"
+				/>
+				<field
+					name="help"
+					type="infopeakstatus"
+					section="bottom"
+					hiddenLabel="true"
+				/>
+			</fieldset>
+		</fields>
+	</config>
+	<updateservers>
+		<server type="extension" priority="1" name="InfoPeak Captcha">https://raw.githubusercontent.com/infopeak/infopeak-captcha-joomla/main/updates.xml</server>
+	</updateservers>
+	<changelogurl>https://raw.githubusercontent.com/infopeak/infopeak-captcha-joomla/main/changelog.xml</changelogurl>
+</extension>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<updates>
+	<update>
+		<name>InfoPeak Captcha</name>
+		<description>InfoPeak Captcha for Joomla</description>
+		<element>infopeak</element>
+		<type>plugin</type>
+		<folder>captcha</folder>
+		<client>site</client>
+		<version>1.0.0</version>
+		<infourl title="InfoPeak Captcha 1.0.0">https://github.com/infopeak/infopeak-captcha-joomla/releases/tag/v1.0.0</infourl>
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/infopeak/infopeak-captcha-joomla/releases/download/v1.0.0/plg_captcha_infopeak-1.0.0.zip</downloadurl>
+		</downloads>
+		<sha512>47e105976e185b9bdba94fe47d6e09848a48346eac6eca6c907bf83310320a8ff2a7170354bff30370c44abe7a241841ba96f5f6ddabc94f0d50d7f3eabff2a7</sha512>
+		<targetplatform name="joomla" version="(5|6)\.[0-9]+" />
+		<php_minimum>8.1</php_minimum>
+		<maintainer>InfoPeak</maintainer>
+		<maintainerurl>https://infopeak.io</maintainerurl>
+	</update>
+</updates>
