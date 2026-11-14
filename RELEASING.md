@@ -26,6 +26,23 @@ release. Nothing is published until the release exists and `updates.xml` is push
    release must be the one the build produced.
 8. Upload the same zip to the JED listing.
 
+## JED listing: the Free tier is a permanent commitment
+
+The extension is listed on the Joomla Extensions Directory (JED) as **Free**. JED allows that for an
+extension that needs an account with an external service only when the service has a free tier that
+always remains free (JED listing checklist, C2.4). InfoPeak Captcha meets this with its free tier of
+10,000 verifications a month.
+
+As long as the listing is Free:
+
+- The free tier must stay available to new and existing accounts, with no time limit and no card
+  required, and the plugin must keep working on it.
+- Removing the free tier, or making it a trial, requires changing the listing to Paid. JED then removes
+  all votes and reviews of the listing.
+- A listing that no longer meets the rule can be unpublished by JED, with 14 days to correct it.
+
+Any change to the Captcha free tier must therefore be decided together with the JED listing.
+
 ## Rules
 
 - The git identity in this repository is `InfoPeak <support@infopeak.io>`.
