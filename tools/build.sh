@@ -41,7 +41,8 @@ else
     echo "Uncommitted changes in $SRC or changelog.xml. Commit first, or use --dirty for local testing." >&2
     exit 1
   fi
-  git archive --format=zip -o "$zip" "HEAD:$SRC"
+  # An archive of a subfolder does not see the root .gitattributes, so switch off autocrlf explicitly.
+  git -c core.autocrlf=false archive --format=zip -o "$zip" "HEAD:$SRC"
 fi
 
 sha=$(sha512sum "$zip" | cut -d' ' -f1)
