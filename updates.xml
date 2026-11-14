@@ -12,7 +12,7 @@
 		<downloads>
 			<downloadurl type="full" format="zip">https://github.com/infopeak/infopeak-captcha-joomla/releases/download/v1.0.0/plg_captcha_infopeak-1.0.0.zip</downloadurl>
 		</downloads>
-		<sha512>fa8da1b32193b35b438aeb57b52051106de5f3912f5b43d82cb389b7db9435ffc541fb3ecfa001b62697be30b4bd0d2ad6f0dba23af971958513f464c6acfda2</sha512>
+		<sha512>011842cc5b801c5e104e10f97d7efe0452b1c42b064538180b83b31c8ace448caa18401fa33fc1de8b3c80efdc5c6f4715e710d507a903cb66f131d05e2939a4</sha512>
 		<targetplatform name="joomla" version="(5|6)\.[0-9]+" />
 		<php_minimum>8.1</php_minimum>
 		<maintainer>InfoPeak</maintainer>
