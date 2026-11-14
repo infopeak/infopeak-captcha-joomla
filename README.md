@@ -69,7 +69,7 @@ The plugin fails closed: a form is accepted only when InfoPeak confirms the toke
 |---|---|
 | Token missing, forged, expired or already used | The spam check was not completed. Please try again. |
 | InfoPeak cannot be reached within 8 seconds | The spam check could not be reached. Please try again in a moment. |
-| Monthly quota and its reserve are used up | This form cannot check your message right now. Please try again later or contact the site owner. |
+| Monthly quota and its reserve are used up | Your message cannot be sent right now, because the spam check is temporarily unavailable. Please try again later or contact the site owner. |
 | Keys missing or refused by InfoPeak | The spam protection on this form is not set up yet. Please contact the site owner. |
 
 Key problems and unreachable service are also written to Joomla's log (category `plg_captcha_infopeak`).
